@@ -19,6 +19,15 @@ class App extends StatelessWidget {
           initialRoute: AppRoutes.home,
           routes: AppRoutes.routes,
           debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            scaffoldBackgroundColor: AppColors.backgroundColor,
+            fontFamily: AppFontFamilies.poppins,
+            textTheme: TextTheme(
+              body1: TextStyle(
+                color: AppColors.bodyTextColor,
+              ),
+            ),
+          ),
           title: 'COVID 19 App',
           supportedLocales: [
             const Locale('en'),

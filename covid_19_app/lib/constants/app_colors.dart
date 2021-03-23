@@ -13,4 +13,7 @@ class AppColors {
   static Color activeShadowColor = Color(0xFF4056C6).withOpacity(.15);
   static Color white = Colors.white;
   static Color grey90 = Color(0xFFE5E5E5);
+  static Color cyanBlueShade = Color(0xFF3383CD);
+  static Color mediumDarkShadeBlue = Color(0xFF11249F);
+  static Color transparent = Colors.transparent;
 }
