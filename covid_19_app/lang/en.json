@@ -12,5 +12,15 @@
     "infected": "Infected",
     "deaths": "Deaths",
     "recovered": "Recovered",
-    "spread_of_virus_title": "Spread of Virus"
+    "spread_of_virus_title": "Spread of Virus",
+    "get_to_know_heading": "Get to know",
+    "about_covid_19_heading": "About Covid-19.",
+    "symptoms_title": "Symptoms",
+    "headache_symptoms": "Headache",
+    "caugh_symptoms": "Caugh",
+    "fever_symptoms": "Fever",
+    "prevention_title": "Prevention",
+    "prevention_card_details": "Since the start of the coronavirus outbreak some places have fully embraced wearing facemasks",
+    "wear_face_mask": "Wear face mask",
+    "wash_your_hands": "Wash your hands"
 }

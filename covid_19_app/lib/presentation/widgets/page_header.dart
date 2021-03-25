@@ -76,8 +76,8 @@ class _AppPageHeaderState extends State<AppPageHeader> {
                       ),
                     ),
                     Positioned(
-                      top: 50 - widget.offset / 2,
-                      left: 150,
+                      top: 45 - widget.offset / 2,
+                      left: 160,
                       child: Column(
                         children: [
                           AppTextDisplay(

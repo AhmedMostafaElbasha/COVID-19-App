@@ -250,9 +250,11 @@ class _HomePageState extends State<HomePage> {
 
   Widget seeDetailsButton() {
     return GestureDetector(
-      onTap: () {},
+      onTap: () {
+        Navigator.of(context).pushNamed(AppRoutes.info);
+      },
       child: AppTextDisplay(
-        translation: AppStrings.see_details,
+        translation: AppStrings.seeDetails,
         textStyle: AppTextStyles.seeDetails,
       ),
     );

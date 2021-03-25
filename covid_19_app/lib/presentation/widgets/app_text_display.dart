@@ -7,6 +7,7 @@ class AppTextDisplay extends StatelessWidget {
   final int maxLines;
   final TextAlign textAlign;
   final TextStyle textStyle;
+  final TextOverflow overflow;
 
   AppTextDisplay({
     this.translation = '',
@@ -14,6 +15,7 @@ class AppTextDisplay extends StatelessWidget {
     this.maxLines = 1,
     this.textAlign = TextAlign.start,
     this.textStyle,
+    this.overflow = TextOverflow.ellipsis,
   });
 
   @override
@@ -23,9 +25,10 @@ class AppTextDisplay extends StatelessWidget {
           ? text
           : AppLocalizations.of(context).translate(translation),
       softWrap: true,
-      textAlign: TextAlign.start,
-      maxLines: 1,
+      textAlign: textAlign,
+      maxLines: maxLines,
       style: textStyle ?? TextStyle(),
+      overflow: overflow,
     );
   }
 }
